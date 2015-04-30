@@ -422,3 +422,50 @@ td,
 th {
   padding: 0;
 }
+
+/* Common styles */
+
+.container {
+    margin: 0 auto;
+    width: 1605px;
+}
+
+/* Navigation */
+.top-nav {
+    background: #aaa;
+    height: 48px;
+}
+
+.links {
+    width: 1056px;
+    height: 47px;
+    background: blue;
+    margin: 0 auto;
+}
+
+article {
+    height: 9252px;
+    background: green;
+}
+
+section {
+    width: 675px;
+    height: 802px;
+    background: gray;
+}
+aside {
+    width: 300px;
+    height: 545px;
+    background: #666;
+}
+.bottom-links {
+    width: 1050px;
+    height: 454px;
+    background: #444;
+}
+
+footer {
+    width: 1050px;
+    height: 36px;
+    background: #c23c23;
+}
