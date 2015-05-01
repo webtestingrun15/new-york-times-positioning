@@ -452,20 +452,20 @@ section {
     width: 675px;
     height: 802px;
     background: gray;
+    margin: 0 auto;
+
 }
-aside {
-    width: 300px;
-    height: 545px;
-    background: #666;
-}
+
 .bottom-links {
     width: 1050px;
     height: 454px;
     background: #444;
+    margin: 0 auto;
 }
 
 footer {
     width: 1050px;
     height: 36px;
     background: #c23c23;
+    margin: 0 auto;
 }
