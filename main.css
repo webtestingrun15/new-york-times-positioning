@@ -404,14 +404,22 @@ td,
 th {
     padding: 0;
 }
+
 /* ==========================================================================
    Common Styles
    ========================================================================== */
 
+body {
+    box-sizing: border-box;
+}
 .container {
     margin: 0 auto;
     width: 1605px;
 }
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
 
 header {
     background: #aaa;
@@ -420,7 +428,9 @@ header {
     top: 0;
     display: inline-block;
     width: 1605px;
+    text-align: center;
 }
+
 .nav-right {
     width: 274px;
     height: 38px;
@@ -430,6 +440,7 @@ header {
     left: 0;
     margin-top: 10px;
 }
+
 .logo {
     width: 1605px;
     height: 38px;
@@ -438,6 +449,7 @@ header {
     bottom: 0;
     z-index: -1;
 }
+
 .nav-left {
     width: 107px;
     height: 38px;
