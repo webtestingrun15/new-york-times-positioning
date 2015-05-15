@@ -404,7 +404,6 @@ td,
 th {
     padding: 0;
 }
-
 /* ==========================================================================
    Common Styles
    ========================================================================== */
@@ -412,11 +411,11 @@ th {
 body {
     box-sizing: border-box;
 }
+
 .container {
     margin: 0 auto;
     width: 1605px;
 }
-
 /* ==========================================================================
    Header
    ========================================================================== */
@@ -465,6 +464,36 @@ header {
     height: 83px;
     background: blue;
     margin-top: 48px;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.ribbon {
+    height: 83px;
+    margin-top: 2px;
+    margin-left: -35px;
+}
+
+.news-stories {
+    width: 249px;
+    height: 75px;
+    /*border-left: 1px solid black;*/
+
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.news-story {
+    width: 230px;
+    height: 32px;
+}
+
+.news-stories a {
+    border: none;
+    color: black;
+    font-size: 13px;
+    line-height: 16px;
 }
 
 article {
