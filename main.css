@@ -469,24 +469,21 @@ header {
     white-space: nowrap;
 }
 
+
 .ribbon {
     height: 83px;
     margin-top: 2px;
     margin-left: -35px;
+
 }
 
 .news-stories {
     width: 249px;
     height: 75px;
-    /*border-left: 1px solid black;*/
-
+    border-left: 1px solid black;
+    position: relative;
     vertical-align: middle;
     display: inline-block;
-}
-
-.news-story {
-    width: 230px;
-    height: 32px;
 }
 
 .news-stories a {
@@ -494,13 +491,32 @@ header {
     color: black;
     font-size: 13px;
     line-height: 16px;
+    display: block;
+    position: absolute;
+    top: 40%
 }
+
+/* ==========================================================================
+   Article
+   ========================================================================== */
 
 article {
     height: 9252px;
+    width: 1050px;
     background: green;
+    margin: 0 auto;
 }
 
+.article-content {
+    width: 532px;
+    margin: 0 auto;
+}
+
+.infographic {
+    width: 945px;
+    height: 705px;
+    margin-left: -259px;
+}
 section {
     width: 675px;
     height: 802px;
