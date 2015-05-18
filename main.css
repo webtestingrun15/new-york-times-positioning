@@ -530,10 +530,30 @@ section {
     background: #444;
     margin: 0 auto;
 }
-
+/* ==========================================================================
+   Footer
+   ========================================================================== */
 footer {
     width: 1050px;
     height: 36px;
     background: #c23c23;
     margin: 0 auto;
+    font-size: 11px;
+}
+
+footer li {
+    display: inline-block;
+}
+
+.first-nav,
+.last-nav {
+    display: inline-block;
+}
+
+.first-nav {
+    margin-left: -40px
+}
+
+.last-nav {
+    margin-left: 130px;
 }
