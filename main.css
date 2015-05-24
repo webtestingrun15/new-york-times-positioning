@@ -410,6 +410,7 @@ th {
 
 body {
     box-sizing: border-box;
+    font-family: georgia,"times new roman",times,serif;
 }
 
 .container {
@@ -530,9 +531,39 @@ section {
     background: #444;
     margin: 0 auto;
 }
+
+.columns {
+    width: 165px;
+    float: left;
+    font-size: 14px;
+}
+
+.last-column {
+    width: 179px;
+    margin-left: 45px;
+}
+
+.columns ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0 0 1em 0;
+}
+
+.site-links {
+    display: table;
+}
+
 /* ==========================================================================
    Footer
    ========================================================================== */
+
+.heading {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+
+
 footer {
     width: 1050px;
     height: 36px;
