@@ -528,8 +528,26 @@ section {
 .bottom-links {
     width: 1050px;
     height: 454px;
-    background: #444;
     margin: 0 auto;
+}
+.links-header {
+    width: 1050px;
+    height: 56px;
+}
+.links-header p {
+    margin-top: -20px;
+    margin-right: 5px;
+    float: right;
+    font-size: 10px;
+}
+
+.links-header a {
+    text-decoration: none;
+    color: grey;
+}
+
+.logo-image {
+    margin-top: 10px;
 }
 
 .columns {
@@ -590,7 +608,6 @@ section {
 footer {
     width: 1050px;
     height: 36px;
-    background: #c23c23;
     margin: 0 auto;
     font-size: 11px;
     color: #B89C99;
