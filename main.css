@@ -422,19 +422,18 @@ body {
    ========================================================================== */
 
 header {
-    background: #aaa;
     height: 48px;
     position: fixed;
     top: 0;
     display: inline-block;
     width: 1605px;
     text-align: center;
+    background: white;
 }
 
 .nav-right {
     width: 274px;
     height: 38px;
-    background: yellow;
     position: absolute;
     top: 0;
     left: 0;
@@ -444,7 +443,6 @@ header {
 .logo {
     width: 1605px;
     height: 38px;
-    background: red;
     position: absolute;
     bottom: 0;
     z-index: -1;
@@ -453,7 +451,6 @@ header {
 .nav-left {
     width: 107px;
     height: 38px;
-    background: black;
     float: right;
     position: absolute;
     top: 0;
