@@ -416,6 +416,8 @@ body {
 .container {
     margin: 0 auto;
     width: 1605px;
+    border-left: 1px solid #E2E2E2;
+    border-right: 1px solid #E2E2E2;
 }
 /* ==========================================================================
    Header
@@ -429,6 +431,12 @@ header {
     width: 1605px;
     text-align: center;
     background: white;
+    border: 1px solid #E2E2E2;
+}
+
+.section-image {
+    margin-left: -30px;
+    border: 1px solid #E2E2E2;
 }
 
 .nav-right {
@@ -499,19 +507,19 @@ article {
     height: 6900px;
     width: 1050px;
     margin: 0 auto;
-    margin-top: 100px;
+    padding-top: 100px;
 }
 
 article h1 {
     font-size: 31px;
     padding-bottom: 10px;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #E2E2E2;
 }
 
 article h2 {
     font-size: 20px;
     padding-top: 10px;
-    border-top: 1px solid grey;
+    border-top: 1px solid #E2E2E2;
 }
 
 article h3 {
@@ -548,7 +556,7 @@ article h3 {
     width: 945px;
     height: 705px;
     margin-left: -259px;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #E2E2E2;
 }
 
 .infographic .caption {
